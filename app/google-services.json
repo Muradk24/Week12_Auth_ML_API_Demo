@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "254433137398",
+    "project_id": "week12assignment-9bf50",
+    "storage_bucket": "week12assignment-9bf50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254433137398:android:f214cc233ddb32b3a052d7",
+        "android_client_info": {
+          "package_name": "edu.farmingdale.alrajab.week12_auth_ml_api_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254433137398-fhsje4apug361g1uv31qbc30agqfn7m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUTbhOncNlP-lW6L_7qhbLZ1YO7uH5erU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254433137398-fhsje4apug361g1uv31qbc30agqfn7m5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
