@@ -44,34 +44,34 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        val googleCredential = oneTapClient.getSignInCredentialFromIntent(data)
-        val idToken = googleCredential.googleIdToken
-        when {
-            idToken != null -> {
-                // Got an ID token from Google. Use it to authenticate
-                // with Firebase.
-                val firebaseCredential = GoogleAuthProvider.getCredential(idToken, null)
-                firebaseAuth.signInWithCredential(firebaseCredential)
-                    .addOnCompleteListener(this) { task ->
-                        if (task.isSuccessful) {
-                            // Sign in success, update UI with the signed-in user's information
-                            Log.d(TAG, "signInWithCredential:success")
-                            val user = firebaseAuth.currentUser
-                            //updateUI(user)
-                        } else {
-                            // If sign in fails, display a message to the user.
-                            Log.w(TAG, "signInWithCredential:failure", task.exception)
-                            updateUI(null)
-                        }
-                    }
-            }
-            else -> {
-                // Shouldn't happen.
-                Log.d(TAG, "No ID token!")
-            }
-        }
-    }
+//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+//        val googleCredential = oneTapClient.getSignInCredentialFromIntent(data)
+//        val idToken = googleCredential.googleIdToken
+//        when {
+//            idToken != null -> {
+//                // Got an ID token from Google. Use it to authenticate
+//                // with Firebase.
+//                val firebaseCredential = GoogleAuthProvider.getCredential(idToken, null)
+//                firebaseAuth.signInWithCredential(firebaseCredential)
+//                    .addOnCompleteListener(this) { task ->
+//                        if (task.isSuccessful) {
+//                            // Sign in success, update UI with the signed-in user's information
+//                            Log.d(TAG, "signInWithCredential:success")
+//                            val user = firebaseAuth.currentUser
+//                            //updateUI(user)
+//                        } else {
+//                            // If sign in fails, display a message to the user.
+//                            Log.w(TAG, "signInWithCredential:failure", task.exception)
+//                            updateUI(null)
+//                        }
+//                    }
+//            }
+//            else -> {
+//                // Shouldn't happen.
+//                Log.d(TAG, "No ID token!")
+//            }
+//        }
+//    }
     override fun onStart() {
         super.onStart()
         // Check if user is signed in (non-null) and update UI accordingly.
