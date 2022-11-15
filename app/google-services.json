@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "254433137398",
-    "project_id": "week12assignment-9bf50",
-    "storage_bucket": "week12assignment-9bf50.appspot.com"
+    "project_number": "810227363364",
+    "project_id": "login-c2903",
+    "storage_bucket": "login-c2903.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:254433137398:android:f214cc233ddb32b3a052d7",
+        "mobilesdk_app_id": "1:810227363364:android:c6b528d8fbff640fe872b1",
         "android_client_info": {
           "package_name": "edu.farmingdale.alrajab.week12_auth_ml_api_demo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "254433137398-fhsje4apug361g1uv31qbc30agqfn7m5.apps.googleusercontent.com",
+          "client_id": "810227363364-lags2k79hpnqj3pb5ckn1fcsqmn3rnpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.farmingdale.alrajab.week12_auth_ml_api_demo",
+            "certificate_hash": "4e7ad81ea8c84fea7b5a10a64562976ea8f82634"
+          }
+        },
+        {
+          "client_id": "810227363364-v0rlkk70pv1n0kj4lr8et3ava9gjk8g4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCUTbhOncNlP-lW6L_7qhbLZ1YO7uH5erU"
+          "current_key": "AIzaSyB_dAInFoDFI1QwQf0N_2ijvCILt8o3JBQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "254433137398-fhsje4apug361g1uv31qbc30agqfn7m5.apps.googleusercontent.com",
+              "client_id": "810227363364-v0rlkk70pv1n0kj4lr8et3ava9gjk8g4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
