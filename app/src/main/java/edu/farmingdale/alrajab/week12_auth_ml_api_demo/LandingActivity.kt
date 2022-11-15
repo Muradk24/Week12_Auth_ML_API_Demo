@@ -6,6 +6,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
+import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.FileProvider
@@ -68,6 +69,9 @@ binding.loadIamgeBtn.setOnClickListener { // Create the File for saving the phot
         firebaseAuth.signOut()
             startActivity(Intent(this@LandingActivity,LoginActivity::class.java))
 
+    }
+    fun recognizeText(view : View){
+        Toast.makeText(this,"Please check",Toast.LENGTH_SHORT).show()
     }
 }
 
